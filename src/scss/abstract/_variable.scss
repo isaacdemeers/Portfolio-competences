@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+// colors
+$colors: (
+    neutral:(50: #F3F4F5,
+        100: #E8E8EA,
+        200: #C5C7CB,
+        300: #A2A5AC,
+        400: #5C616D,
+        500: #161D2F,
+        600: #141A2A,
+        700: #0D111C,
+        800: #0A0D15,
+        900: #07090E,
+    ),
+    primary:(100: #FEFAE0,
+        200: #A3B18A,
+        400: #588157,
+        600: #3A5A40,
+        800: #344E41,
+    ),
+    secondary:(400: #DDA15E,
+        600: #BC6C25,
+    ),
+
+    alpha:(100: #fefae077,
+        200: #a3b18a8b,
+        400: #5881577e,
+        600: #3a5a407c,
+        800: #344e4180,
+    ),
+);
+
+
+// font-families
+$ff: (
+    Outfit: "'Outfit', sans-serif",
+    Fugaz: "'Fugaz One', sans-serif;",
+    Mont: "'Montserrat', sans-serif;",
+    Rubik: "'Rubik Mono One', monospace;",
+    Yav: "'Yeseva One', serif"
+);
+
+
+
+// font-size
+$fs: (
+    300: .81rem,
+    400: .93rem,
+    500: 1rem,
+    600: 1.125rem,
+    700: 1.5rem,
+    800: 2rem
+);
+
+
+// font-weights
+$fw: (
+    100: 100,
+    200: 200,
+    300: 300,
+    400: 400,
+    500: 500,
+    600: 600,
+    700: 700,
+    800: 800,
+    900: 900,
+
+);
+
+
+// size/spacing values
+$size: (
+    8: 8px,
+    16: 16px,
+    32: 32px,
+);
+
+
+:root {
+
+    // colors
+    @each $color, $shadeMap in $colors {
+        @each $shade, $value in $shadeMap {
+            --color-#{$color}-#{$shade}: #{$value};
+        }
+    }
+
+    --cubic: cubic-bezier(0.76, 0, 0.24, 1);
+
+    // font-families
+    @each $key, $value in $ff {
+        --ff-#{$key}: #{$value};
+    }
+
+    // font-size
+    @each $key, $value in $fs {
+        --fs-#{$key}: #{$value};
+    }
+
+    // font-weights
+    @each $key, $value in $fw {
+        --fw-#{$key}: #{$value};
+    }
+
+    // size/spacing values
+    @each $key, $value in $size {
+        --size-#{$key}: #{$value};
+    }
+}

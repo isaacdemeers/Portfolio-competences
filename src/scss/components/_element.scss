@@ -1,0 +1,28 @@
+@use "../abstract" as *;
+
+
+.element {
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    border-radius: 30px;
+
+    position: relative;
+    background-color: var(--color-primary-400);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+
+
+
+    &--main {
+        background-color: var(--color-primary-600);
+
+        gap: 1rem;
+
+
+    }
+}

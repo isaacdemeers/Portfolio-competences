@@ -1,0 +1,77 @@
+@use "../abstract" as *;
+
+.bigTitle {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--color-primary-100);
+    font-family: var(--ff-Yav);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.smallTitle {
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--color-primary-100);
+    font-family: var(--ff-Fugaz);
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes swipeDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(1rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.swipeDown {
+    transition: .5s var(--cubic);
+    position: absolute;
+    bottom: 2rem;
+    margin: auto;
+    animation: swipeDown 5s infinite;
+
+    &--top {
+        bottom: 2.5rem;
+        animation-delay: .1s;
+    }
+}
+
+.swipeText {
+    font-size: .5rem;
+    font-weight: 800;
+    color: var(--color-primary-400);
+    font-family: var(--ff-Mont);
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 4.4rem;
+    margin: auto;
+    animation: swipeDown 5s infinite;
+    animation-delay: .2s;
+
+}
+
+.yearText {
+    position: absolute;
+    top: 2rem;
+    margin: auto;
+    font-size: .6rem;
+    font-weight: 800;
+    color: var(--color-primary-200);
+    font-family: var(--ff-Mont);
+    text-transform: uppercase;
+
+}

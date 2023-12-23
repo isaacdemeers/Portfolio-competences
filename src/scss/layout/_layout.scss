@@ -1,0 +1,68 @@
+@use "../abstract" as *;
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-color: var(--color-primary-100);
+
+
+
+    @include size(M) {
+        padding: 0;
+    }
+
+    @include size(XL) {
+        padding: 0;
+    }
+}
+
+.main {
+    width: 80%;
+    max-width: 1200px;
+    min-width: 800px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.content {
+    max-height: calc(100vh - 4rem);
+    width: 100%;
+    height: 100%;
+    margin: 2rem;
+
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+
+    position: relative;
+}
+
+.contentScroll {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    overflow: scroll;
+
+    position: relative;
+
+
+}
