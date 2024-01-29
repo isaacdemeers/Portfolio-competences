@@ -1,0 +1,152 @@
+SA3 3.01 | Intégrer/développer des interfaces/parcours
+utilisateurs au sein d’un système d’information
+Compétences ciblées
+Comprendre les écosystèmes, les besoins des utilisateurs et les dispositifs de communication numérique
+Concevoir ou co-concevoir une réponse stratégique pertinente à une problématique complexe Développer
+pour le web et les médias numériques Entreprendre dans le secteur du numérique
+Objectifs et problématique professionnelle
+Objectifs : combiner les ressources liées au développement web, au design d’expérience et à la gestion
+de projet pour concevoir et développer des parcours utilisateurs.
+En tant que développeurs web et UX-designers, les étudiants doivent analyser le cahier des charges
+d'une application ou d'un site web, identifier les parcours utilisateurs, avant d'en développer les
+fonctionnalités en répondant à la question : Comment mettre en place un site web offrant une
+expérience utilisateur de qualité ?
+Les étudiants du parcours "Développement web et dispositifs interactifs" doivent développer par
+eux-mêmes le système d'information et les traitements liés aux parcours utilisateurs définis, en mettant
+l'accent sur la qualité du code produit.
+Ressources mobilisées et combinées
+Tronc commun :
+R3.03 | Design d'expérience R3.04 | Culture numérique R3.12 | Intégration R3.19 | Développement Front
+R3.14 | Déploiement de services R3.16 | Gestion de projet R3.17 | Economie, gestion et droit du numérique
+R3.18 | Projet Personnel et Professionnel
+Création Numérique : R3.Crea.13 | Gestion de contenus avancée
+Développeur Web et Dispositifs Interactifs R3.DWeb-DI.13 | Développement Back
+1. Descriptif
+Objectif :
+Il s’agit de réaliser un site web de type “click & collect”.
+Le site web doit donc proposer différents produits que l’on pourra sélectionner pour constituer un
+“panier” que chaque client pourra plus tard passer chercher ou commander.
+Toutefois, dans le cadre de ce projet, le paiement et la mise à disposition du panier ne seront pas traités.
+Le projet est à réaliser en groupe au sein d’un même parcours.
+Des trinômes pour le parcours Création Numérique. Des binômes pour le parcours Développement web
+et dispositifs interactifs.
+Vous respecterez la charte graphique de l’enseigne choisie.
+Les produits disponibles sur votre site seront à prendre parmi ceux vendus par l’enseigne choisie.
+Si elle possède déjà un service “click & collect” ou tout simplement une boutique en ligne (ce sera sans
+doute le cas) vous devrez proposer une expérience utilisateur qui diffère de l’existant.
+Pour vous simplifier la tâche, on ne vous demande pas de proposer sur votre site tous les produits
+vendus par l’enseigne. L’objectif sera d’avoir :
+● 3 catégories de produits
+● 3 produits par catégorie
+● des “options” pour chaque produit
+
+ Livrables
+Au terme de la SAé, c’est-à-dire vendredi 27 octobre, vous devrez communiquer :
+● un lien Figma vers vos prototypes (Team SAE312).
+● un lien vers votre application hébergée et correspondant à la dernière itération réalisée.
+● un lien GitHub vers l’intégralité du code source correspondant (si repo privé, ne pas oublier
+d’ajouter vos enseignants en “collaborateur”).
+● le rapport d’audit de votre application produit par l’outil Lighthouse
+
+
+
+
+
+
+
+
+
+
+Initial communication situation
+Coachella music Festival is launching a call for international
+young talents.
+The selected artist(s) and/or band(s) will do the opening of the 2024 concerts.
+As junior content producers, in teams of 3 students, you must
+carry out a design and production work in line with the established
+communication strategy.
+You will have to think about the following problematic:
+**** How to produce efficient and relevant contents within the
+framework of the plurimedia communication desired by the
+Festival? ****
+Your target is international, so at least English-speaking.
+■ From this given communication situation, you must:
+- analyze the context
+- understand the stakes (=enjeux)
+- define a multi-media strategy.
+This implies, for example and in a non-exhaustive way, defining an
+editorial line, a visual identity, a communication plan, the list of
+contents to produce.
+In a second phase, you must produce the media
+corresponding to the defined strategy.
+These media must be varied in nature and call upon all the
+resources of the »Exprimer" skill.
+You must think your operations for aninternational target so
+primarily in English.
+R301 Anglais –Natacha Adamczyk
+■ R305 Stratégies de Communication et Marketing –Audrey Moutat etAnne-Sophie Dubreuil
+■ R307 Expression Communication et Rhétorique –Valérie Lavèfve
+■ R308 Ecriture Multimédia et Narration – Lucile Bonnaud
+■ R310 Culture Artistique - Lucille Bonnaud
+■ R309 Création et Design Interactif – Déborah Fiammetti et Simon Kabab
+■ R311 Audiovisuel et Motion Design – Manon Jauffret et Lucile Bonnaud
+■ R316Gestion de Projet – Rémi Mondollot
+
+Agile portfolio in French (A. Moutat and R. Mondollot)
+■ Interviews in English in a role play situation (N. Adamczyk and V. Lavefve)
+■ Landing page of the section in English + French (D. Fiammetti and S. Kabab)
+■ A motion video teaser with soundtrack and typefaces (L. Bonnaud and M. Jauffret)
+■ Video (réel) on social networks in English + French (A.S. Dubreuil)
+
+ Comprendre
+AC 21.01 Analyser la stratégie de communication ou marketing d’un acteur, d’une organisation au regard d’un secteur ou d’un marché (stratégie,
+missions, valeurs)
+AC 21.02 Auditer un site web, une marque ou un service en termes de traffic et de référencement
+■ Concevoir
+AC 22.03 Co-construire une recommandation stratégique (en structurant un plan d’action)
+AC 22.04 Optimiser le référencement d’un site web, d’un produit ou d’un service
+AC 22.05 Mettre en place une présence sur les réseaux sociaux
+■ Exprimer
+AC 23.01 Produire un écrit journalistique sourcé et documenté
+AC 23.02 Définir une iconographie (illustrations, photographies, vidéos)
+AC 23.03 Créer et décliner une identité visuelle (charte graphique)
+AC 23.04 Imaginer, écrire et scénariser en vue d’une communication multimédia ou transmédia
+AC 23.05 Réaliser, composer et produire pour une communication plurimédia
+■ Entreprendre
+AC 25.04 Collaborer au sein des organisations
+AC 25.05 Maîtriser les codes des productions écrites et orales professionnelles
+
+
+
+
+
+
+
+
+
+
+
+
+SA3 3.03 | Concevoir des visualisations de données pour le web et une application interactive
+Compétences ciblées
+Objectifs : les données sont de plus en plus présentes dans le monde de l’entreprise ou des services. Elles permettent d’enrichir une information, mais servent aussi d’outil de communication.
+A partir de jeux de données, cette SAE mobilise les ressources liées à l’analyse de données, à la production graphique, à l’intégration et au développement front et amène les étudiants à :
+● Analyser des données pour en extraire des indicateurs ou les informations pertinentes ;
+● Proposer un site web permettant la visualisation de ces données ;
+● Compléter ce site web par la production d'une application interactive permettant une navigation
+au sein des données.
+Les étudiants doivent mener un travail d'analyse et d'interprétation d'un jeu de données, une réflexion sur les éléments caractéristiques de ces données et produire des visualisations afin d'appuyer un message de communication. Les étudiants réalisent les contenus et les présentent au commanditaire en répondant à la question : Comment concevoir des visualisations de données apportant une information pertinente et appuyant une communication ?
+Ressources mobilisées et combinées
+R3.09 | Création et design interactif (UI)
+R3.10 | Culture artistique
+R3.12 | Intégration et développement front
+R3.15 | Représentation et traitement de l'information
+ Comprendre les écosystèmes, les besoins des utilisateurs et les dispositifs de communication numérique
+ Exprimer un message avec les médias numériques pour informer et communiquer
+ Développer pour le web et les médias numériques
+ Descriptif générique
+Il s'agit de comprendre et analyser des jeux de données bruts issus de sources de données ouvertes, éventuellement géolocalisées, puis d'en extraire des indicateurs statistiques pertinents, répondant à un objectif de communication.
+Les données et indicateurs sont ensuite utilisés pour obtenir une représentation visuelle pertinente qui doit faciliter la compréhension des données, donner du sens aux données, voire aider à la prise de décision.
+Les étudiants doivent choisir entre les différents types de représentations (courbes, diagrammes, animations, cartes...).
+Les étudiants conçoivent ensuite un site web permettant la diffusion des données tout en les mettant en valeur.
+[Parcours Créa. ] Le travail est complété par la production d'éléments de communication visuelle en veillant à la qualité et la diversité des productions proposées, tant sur le plan visuel et esthétique que sur la lisibilité des informations.
+[Parcours Dweb] Le travail est complété par la mise en place d'une application avec des interactions simples permettant de naviguer dans les données, de visualiser des informations complémentaires ou de favoriser la compréhension des éléments.
