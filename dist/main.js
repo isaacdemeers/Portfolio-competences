@@ -28,12 +28,39 @@ document.body.addEventListener('click', (e) => {
 
     }
 
+    // si le type de l'element cliqué est body ou main on enleve la class visible
+    if (e.target.tagName == 'BODY' || e.target.tagName == 'MAIN') {
+        document.querySelector('.searchBar').classList.remove('visible');
+        document.querySelector('.searchResult').classList.add('searchResult--hidden');
+        document.querySelector('.searchBar__input').blur();
+    }
+
 
 })
+
+// si touche echap on enleve la class visible
+document.body.addEventListener('keyup', (e) => {
+    if (e.key === 'Escape') {
+        document.querySelector('.searchBar').classList.remove('visible');
+        document.querySelector('.searchResult').classList.add('searchResult--hidden');
+        document.querySelector('.searchBar__input').blur();
+
+    }
+
+    // si la touche entrée est appuyé on envoie la recherche
+    if (e.key === 'Enter') {
+        document.querySelector('.searchBar').classList.add('visible');
+        document.querySelector('.searchBar__input').focus();
+    }
+})
+
+
 
 document.querySelector('.contentScroll').addEventListener('scroll', () => {
     document.querySelector('.searchBar').classList.remove('visible');
     document.querySelector('.searchResult').classList.add('searchResult--hidden');
+    document.querySelector('.searchBar__input').blur();
+
 
 
     //si le scroll est - de 100px on enleve la class visible

@@ -665,6 +665,17 @@ table {
   height: 4rem;
 }
 
+@keyframes add {
+  from {
+    opacity: 0;
+    height: 0rem;
+    padding: 0rem 2rem;
+  }
+  to {
+    opacity: 1;
+    padding: 2rem;
+  }
+}
 .searchResult {
   position: absolute;
   top: 0;
@@ -694,9 +705,10 @@ table {
 .result {
   position: relative;
   width: 100%;
-  padding: 2rem;
   border-radius: 16px;
   background-color: var(--color-alpha-800);
+  padding: 2rem;
+  animation: add 0.3s var(--cubic) forwards;
 }
 .result__infos {
   display: flex;
