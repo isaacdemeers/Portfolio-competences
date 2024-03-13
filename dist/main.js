@@ -1,4 +1,13 @@
 
+import { M } from './js/model.js';
+import { V } from './js/view.js';
+
+M.init();
+
+document.querySelector('.searchBar__input').addEventListener('input', function (event) {
+    let userInput = event.target.value;
+    V.updateResults(userInput, M.searchData);
+});
 
 document.body.addEventListener('click', (e) => {
 

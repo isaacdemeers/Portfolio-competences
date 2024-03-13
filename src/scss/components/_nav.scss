@@ -9,6 +9,7 @@
     justify-content: flex-start;
     padding: 2rem 0;
     gap: 1rem;
+    z-index: 100;
 
     transition: all .3s var(--cubic);
 
@@ -26,11 +27,17 @@
 
         &--sep {
             height: 1rem;
+
+            &--xl {
+                height: 4rem;
+
+            }
         }
     }
 
 
     &__iconBox {
+        position: relative;
         width: 40px;
         aspect-ratio: 1/1;
         padding: .2rem;
@@ -43,6 +50,14 @@
         -webkit-backdrop-filter: blur(30px);
 
         // background-color: var(--color-alpha-600);
+
+        &:hover>&__name {
+            transform: translate(0, -50%);
+            opacity: 1;
+            pointer-events: all;
+            visibility: visible;
+
+        }
 
 
         &__icon {
@@ -57,5 +72,27 @@
                 cursor: default;
             }
         }
+
+        &__name {
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            font-family: var(--ff-Mont);
+            transform: translate(10px, -50%);
+            padding: .5rem;
+            border-radius: 10px;
+            opacity: 0;
+
+            background-color: var(--color-secondary-400);
+            color: var(--color-primary-100);
+            font-size: .7rem;
+            font-weight: 500;
+            box-shadow: 0 0 20px -10px #0000008c;
+            z-index: 100;
+            visibility: hidden;
+        }
     }
+
+
+
 }
