@@ -77,19 +77,26 @@
             position: absolute;
             top: 50%;
             left: 100%;
-            font-family: var(--ff-Mont);
             transform: translate(10px, -50%);
             padding: .5rem;
             border-radius: 10px;
+
+            visibility: hidden;
             opacity: 0;
 
+            font-family: var(--ff-Mont);
             background-color: var(--color-secondary-400);
             color: var(--color-primary-100);
             font-size: .7rem;
             font-weight: 500;
+
             box-shadow: 0 0 20px -10px #0000008c;
             z-index: 100;
-            visibility: hidden;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
         }
     }
 
